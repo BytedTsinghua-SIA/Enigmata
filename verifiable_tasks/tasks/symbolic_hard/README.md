@@ -1,0 +1,2 @@
+# Symbolic Hard
+Symbolic Hard is a dataset for the evaluation of Large Language Models on logical and abstract reasoning tasks. You can download the dataset from [Logical and Abstract Reasoning](https://github.com/Strong-AI-Lab/Logical-and-abstract-reasoning/tree/main)

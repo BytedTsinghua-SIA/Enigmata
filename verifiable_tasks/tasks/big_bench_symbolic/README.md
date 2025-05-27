@@ -1,0 +1,1 @@
+You can download the dataset from [Logical-and-abstract-reasoning](https://github.com/Strong-AI-Lab/Logical-and-abstract-reasoning/tree/main/data/Big-bench/Functions)

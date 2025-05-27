@@ -1,0 +1,3 @@
+# Light Up
+
+Light Up is played on a rectangular grid composed of black and white cells. The objective is to place light bulbs on the grid such that every white cell is illuminated. A white cell is illuminated if it shares a row or column with a light bulb and there are no black cells between them. Additionally, no light bulb may illuminate another light bulb. Some black cells contain numbers, which indicate the exact number of light bulbs that must be placed adjacent to that cell.
