@@ -108,9 +108,9 @@ Incorporating the **Enigmata-Data** synthetic puzzle dataset into large-scale mo
 
 If you find this work helpful, please cite our paper:
 ```bibtex
-@article{2025enigmata,
+@article{chen2025enigmata,
   title={Enigmata: Scaling Logical Reasoning in Large Language Models with Synthetic Verifiable Puzzles},
-  author={Jiangjie Chen, Qianyu He, Siyu Yuan, Aili Chen, Zhicheng Cai, Weinan Dai, Hongli Yu, Qiying Yu, Xuefeng Li, Jiaze Chen, Hao Zhou, Mingxuan Wang},
+  author={Chen, Jiangjie and He, Qianyu and Yuan, Siyu and Chen, Aili and Cai, Zhicheng and Dai, Weinan and Yu, Hongli and Yu, Qiying and Li, Xuefeng and Chen, Jiaze and others},
   journal={arXiv preprint arXiv:2505.19914},
   year={2025}
 }
