@@ -61,7 +61,7 @@ Enigmata-Eval is a comprehensive benchmark containing 4,758 puzzle instances acr
 
 ### 🧐 Quick Evaluation
 
-Evaluate model solutions across all tasks:
+Place your model's predictions of the tasks in the `output` column of `result.parquet` correspondingly, then evaluate model solutions across all tasks with:
 
 ```bash
 # Run comprehensive evaluation
