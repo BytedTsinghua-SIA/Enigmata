@@ -3,7 +3,8 @@
 <p align="center">
   <a href="http://arxiv.org/abs/2505.19914">📄 Paper</a> •
   <a href="https://seed-enigmata.github.io">🏠 HomePage</a> •
-  <a href="https://huggingface.co/datasets/BytedTsinghua-SIA/Enigmata-Eval">🤗 Eval</a> •
+  <a href="https://huggingface.co/datasets/BytedTsinghua-SIA/Enigmata-Data">🤗 HF Dataset</a> • 
+  <a href="https://huggingface.co/datasets/BytedTsinghua-SIA/Enigmata-Eval">🤗 Eval</a> • 
   <a href="https://huggingface.co/BytedTsinghua-SIA/Enigmata-Qwen2.5-32B">🤖 Model</a>
 </p>
 
@@ -47,9 +48,34 @@ The generator-verifier design yields three key benefits:
 
 - **Flexible Task Sampling**: Generators can emit arbitrary sample counts per task, enabling studies of task balancing and cross-task generalization.
 
-### 🏃 Generating Puzzle Data
+### 🏃 Quick Start: Generating Puzzle Data
 
-Will be released soon.
+Use our streamlined generation pipeline to create custom puzzle datasets:
+
+```bash
+# Generate training data for specific tasks
+python3 generate_all_tasks.py \
+    --count 2000 \
+    --split train \
+    --output /your/training/data/path \
+    --tasks maze
+
+# Generate evaluation data
+python3 generate_all_tasks.py \
+    --count 1000 \
+    --split test \
+    --output /your/evaluation/data/path \
+    --tasks maze
+
+# Ensure data integrity with leakage detection
+python check_data_leakage.py \
+    --eval-root /your/evaluation/data/path \
+    --train-root /your/training/data/path \
+    --output-root /your/clean/evaluation/path \
+    --report /your/reports/data_leakage_report.csv
+```
+
+**Pro Tip**: Omit `--tasks` parameter to generate data for all 36 available tasks simultaneously.
 
 ## ⚖️ Enigmata-Eval: Evaluating Logical Reasoning Capabilities
 
