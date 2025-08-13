@@ -32,6 +32,9 @@ When trained on **larger models like [Seed1.5-Thinking](https://arxiv.org/abs/25
 
 ## 🧩 Enigmata-Data: Synthetic Verifiable Puzzle Generation
 
+**📥 Download Enigmata-Data**: [HuggingFace Dataset](https://huggingface.co/datasets/BytedTsinghua-SIA/Enigmata-Data)
+
+
 ### 🔍 Dataset Overview
 Enigmata-Data comprises *36 distinct task* types spanning *7 categories* of logical reasoning puzzles. Each task is built with two core components:
 
@@ -83,7 +86,7 @@ python check_data_leakage.py \
 
 Enigmata-Eval is a comprehensive benchmark containing 4,758 puzzle instances across Easy, Medium, and Hard difficulty levels. Each task provides 50 instances per difficulty level where possible, with strict train-eval separation to prevent data leakage.
 
-**📥 Download Enigmata-Eval**: [HuggingFace Dataset](https://huggingface.co/datasets/BytedTsinghua-SIA/Enigmata-Data)
+**📥 Download Enigmata-Eval**: [HuggingFace Dataset](https://huggingface.co/datasets/BytedTsinghua-SIA/Enigmata-Eval)
 
 ### 🧐 Quick Evaluation
 
